@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./component/nav.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .login>form{
+            display: grid;
+            width: 40%;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+
+    </div>
+
+    <h1>SignUp</h1>
+    <div class="login">
+        <form>
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="text" placeholder="Number" id="number" required>
+            <input type="text" placeholder="UserName" id="username" required>
+            <input type="text" placeholder="password" id="password" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="text" placeholder="Address" id="address" required>
+            <input type="text" placeholder="city" id="city" required>
+            <input type="text" placeholder="State" id="state" required>
+            <input type="text" placeholder="country" id="country" required>
+            <input type="submit" value="Submit" id="submit" >
+        </form>
+    </div>
+</body>
+
+<script src="./script/signup.js" type="module"></script>
+
+</html>
